@@ -1,0 +1,38 @@
+.gywmdatu11{
+	width: 100%;
+	height: 500px;
+	/*background-color: cadetblue;*/
+	
+}
+.gywmdatu11 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.gywm h1{
+	font-size: 30px;
+	text-align: center;
+	text-align: center;
+}
+.gywm{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.gywmxq{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+.gywmxqimg{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	background-color: antiquewhite;
+	border-radius: 8px;
+}
+.gywmxqimg img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}

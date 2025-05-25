@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - BH Covano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .contact-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .contact-item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .contact-item h3 {
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .qr-codes {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            min-width: 300px;
+        }
+
+        .qr-code {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .qr-code img {
+            width: 180px;
+            height: auto;
+        }
+
+        .map-container {
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+            }
+            
+            .qr-codes {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>联系电话</h3>
+                <p>17820520623</p >
+            </div>
+            <div class="contact-item">
+                <h3>工作时间</h3>
+                <p>周一至周五 9:00-18:00</p >
+            </div>
+            <div class="contact-item">
+                <h3>电子邮箱</h3>
+                <p>booking@bh-covano.cn</p >
+            </div>
+            <div class="contact-item">
+                <h3>联系地址</h3>
+                <p>广州市天河区荷光路137号103室</p >
+            </div>
+        </div>
+
+        <div class="qr-codes">
+            <div class="qr-code">
+                < img src="data:image/png;base64,..." alt="微信公众号二维码">
+                <p>微信公众号</p >
+            </div>
+            <div class="qr-code">
+                < img src="data:image/png;base64,..." alt="客服微信二维码">
+                <p>客服微信</p >
+            </div>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <iframe src="https://map.baidu.com/search/%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E8%8D%B7%E5%85%89%E8%B7%AF137%E5%8F%B7103%E5%AE%A4/@12621497.125,2632314,19z?querytype=s&da_src=shareurl&wd=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E8%8D%B7%E5%85%89%E8%B7%AF137%E5%8F%B7103%E5%AE%A4&c=257&src=0&pn=0&sug=0&l=19&b=(12621035.805,2631948.7;12621991.805,2632429.7)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" 
+            allowfullscreen loading="lazy">
+        </iframe>
+    </div>
+</body>
+</html>

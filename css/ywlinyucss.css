@@ -1,0 +1,99 @@
+.airlift{
+	width: 100%;
+	height: 400px;
+	/*background-color: beige;*/
+	margin-top: 100px;
+}
+.airliftzuo{
+	width: 50%;
+	height: 400px;
+	margin: 0;
+	/*background-color: brown;*/
+	float: left;
+	margin-left: 40px;
+	margin-top: 50PX;
+}
+.airliftyou{
+	width: 40%;
+	height: 400px;
+	margin: 0;
+	/*background-color: aqua;*/
+	float: right;
+	margin-left: 0;
+	overflow: hidden;
+}
+.airliftyou img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+	}
+
+.shipping{
+	width: 100%;
+	height: 400px;
+	/*background-color: burlywood;*/
+	margin-top: 50px;
+}
+
+.shippingzuo{
+	width: 40%;
+	height: 400px;
+	margin: 0;
+	/*background-color: cadetblue;*/
+	float: left;
+}
+.shippingzuo img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+	
+	}
+.shippingyou{
+	width: 50%;
+	height: 400px;
+	margin: 0;
+	/*background-color: aqua;*/
+	float: right;
+	margin-left: 0;
+	overflow: hidden;
+	margin-left: 40px;
+	margin-top: 50PX;
+	margin-right: 40px;
+}
+
+.express{
+	width: 100%;
+	height: 400px;
+	/*background-color: burlywood;*/
+	margin-top: 50px;
+}
+.expresszuo{
+	width: 50%;
+	height: 400px;
+	margin: 0;
+	/*background-color: cadetblue;*/
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+.expressyou{
+		width: 40%;
+		height: 400px;
+		margin: 0;
+		/*background-color: aqua;*/
+		float: right;
+		margin-left: 0;
+		overflow: hidden;
+	}
+.expressyou img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 8px;
+		}
+		.airliftzuo h6{
+			/*text-align: center;*/
+		}
